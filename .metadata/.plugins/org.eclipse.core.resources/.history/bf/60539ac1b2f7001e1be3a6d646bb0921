@@ -1,0 +1,55 @@
+package com.jdbc;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.util.Scanner;
+
+public class JDBCinsert {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("id>> ");
+        String id = scan.next();
+        System.out.println("pw>> ");
+        String pw = scan.next();
+        System.out.println("name>> ");
+        String name = scan.next();
+        System.out.println("email>> ");
+        String email = scan.next();
+        
+        Connection conn = null;
+        PreparedStatement pstmt = null;
+        
+        String sql = "insert into members values(?,?,?,?)";
+        
+        try {
+            // 1. JDBC 드라이버 호출
+            // 드라이버 호출 코드 작성
+
+            // 2. 커넥션
+            // 데이터베이스 연결을 위한 Connection 객체 생성 코드 작성
+
+            // 3. sql문 전달 객체 생성(prepereStatement)
+            // PreparedStatement 객체 생성 및 SQL 문 전달 코드 작성
+            pstmt = conn.prepareStatement(sql);
+
+            // 4. sql문 실행
+            // PreparedStatement를 사용하여 SQL 문 실행 코드 작성
+            pstmt.setString(1, id);
+            pstmt.setString(2, pw);
+            pstmt.setString(3, name);
+            pstmt.setString(4, email);
+            pstmt.executeUpdate();
+        } catch (Exception e) {
+            // 예외 처리 코드 작성
+        } finally {
+            try {
+                // 자원 해제 코드 작성 (Connection, PreparedStatement, ResultSet 등)
+            } catch (Exception e2) {
+                // 예외 처리 코드 작성
+            }
+        }
+        
+    }
+
+}

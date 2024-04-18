@@ -1,0 +1,26 @@
+package com.myweb.board.service;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.myweb.board.model.BoardDAO;
+
+public class UpdateServiceImpl implements IBoardService {
+
+    @Override
+    public void execute(HttpServletRequest request, HttpServletResponse response) {
+        
+        int num = Integer.parseInt(request.getParameter("num"));
+        String title = request.getParameter("title");
+        String content = request.getParameter("content");
+        
+        BoardDAO dao = BoardDAO.getInstance();
+        dao.update(num, title, content);
+        
+        // 필요한 값들을 request에 설정하여 상세보기 화면으로 연결
+        request.setAttribute("num", num);
+        request.setAttribute("title", title);
+        request.setAttribute("content", content);
+    }
+
+}

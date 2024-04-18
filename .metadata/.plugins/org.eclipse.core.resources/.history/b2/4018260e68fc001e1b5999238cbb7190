@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grade Result</title>
+</head>
+<body>
+    <h2>점수에 따른 등급</h2>
+    <%-- 점수를 받아오기 --%>
+    <c:set var="score" value="${param.score}" />
+
+    <%-- 등급 확인 --%>
+    <c:choose>
+        <c:when test="${score >= 90}">
+            <p>점수: ${score}, A학접입니다.</p>
+        </c:when>
+        <c:when test="${score >= 80}">
+            <p>점수: ${score}, B학접입니다.</p>
+        </c:when>
+        <c:when test="${score >= 70}">
+            <p>점수: ${score}, C학접입니다.</p>
+        </c:when>
+        <c:when test="${score >= 60}">
+            <p>점수: ${score}, D학접입니다.</p>
+        </c:when>
+        <c:otherwise>
+            <p>점수: ${score}, F학접입니다.</p>
+        </c:otherwise>
+    </c:choose>
+</body>
+</html>

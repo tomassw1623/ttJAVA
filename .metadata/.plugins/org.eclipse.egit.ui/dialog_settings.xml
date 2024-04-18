@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="CommitDialog.authorValues">
+		<item value="jo_sungwoo &lt;jo_sungwoo@DESKTOP-7I5HHN4&gt;"/>
+		<item value="jo sungwoo &lt;jo sungwoo@172.171.201.99&gt;"/>
+		<item value="jo sungwoo &lt;jo sungwoo@DESKTOP-7I5HHN4&gt;"/>
+		<item value="jo sungwoo &lt;jo sungwoo@host.docker.internal&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="jo_sungwoo &lt;jo_sungwoo@DESKTOP-7I5HHN4&gt;"/>
+		<item value="jo sungwoo &lt;jo sungwoo@172.171.201.99&gt;"/>
+		<item value="jo sungwoo &lt;jo sungwoo@DESKTOP-7I5HHN4&gt;"/>
+		<item value="jo sungwoo &lt;jo sungwoo@host.docker.internal&gt;"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/tomassw1623/JavaProject/blob/fcbdf4bb0a9c7c77f0cae2915f8f1fbeff9d86df/review"/>
+	</list>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+		<item value="bitbucket.org"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\AWSDEVEOP\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\AWSDEVEOP_reset\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\TOMASPotpolio\.git">
+			<item value="empty"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="91"/>
+		<item key="DIALOG_Y_ORIGIN" value="148"/>
+		<item key="DIALOG_WIDTH" value="668"/>
+		<item key="DIALOG_HEIGHT" value="481"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+		<list key="sashWeights">
+			<item value="600"/>
+			<item value="400"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.fetch.FetchResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="375"/>
+		<item key="DIALOG_Y_ORIGIN" value="205"/>
+		<item key="DIALOG_WIDTH" value="618"/>
+		<item key="DIALOG_HEIGHT" value="481"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.pull.PullResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="652"/>
+		<item key="DIALOG_Y_ORIGIN" value="211"/>
+		<item key="DIALOG_WIDTH" value="634"/>
+		<item key="DIALOG_HEIGHT" value="462"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.repository.CreateBranchPage$SourceSelectionDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="0"/>
+		<item key="DIALOG_Y_ORIGIN" value="-143"/>
+		<item key="DIALOG_WIDTH" value="613"/>
+		<item key="DIALOG_HEIGHT" value="531"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.dialogs.MergeTargetSelectionDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="663"/>
+		<item key="DIALOG_Y_ORIGIN" value="15"/>
+		<item key="DIALOG_WIDTH" value="613"/>
+		<item key="DIALOG_HEIGHT" value="757"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+</section>

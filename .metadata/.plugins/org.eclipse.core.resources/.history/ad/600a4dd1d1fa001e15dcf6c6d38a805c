@@ -1,0 +1,50 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%
+	if(session.getAttribute("user_id")==null){
+		response.sendRedirect("user_login.jsp");
+	}
+
+	String id = (String)session.getAttribute("user_id");
+	String name = (String)session.getAttribute("user_name");
+%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../css/business-casual.css" rel="stylesheet">
+</head>
+<body>
+    <%@ include file="../include/header.jsp" %>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">my page</h2>
+                <hr>
+                
+                아이디(네임)님의 회원정보를 관리합니다.
+                
+                <hr>
+                <input type="button" value="비밀번호 변경" class="btn btn-default"
+                	oneclick="location.href='user_chang_pw.jsp'">
+                <input type="button" value="회원정보 수정" class="btn btn-primary"
+                	oneclick="location.href='user_update.jsp'">
+                <input type="button" value="회원탈퇴" class="btn btn-info"
+                	oneclick="location.href='user_delete.jsp'">
+                
+            </div>
+        </div>
+    </div>
+
+    <%@include file="../include/footer.jsp" %>
+    
+    <!-- Bootstrap JS -->
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

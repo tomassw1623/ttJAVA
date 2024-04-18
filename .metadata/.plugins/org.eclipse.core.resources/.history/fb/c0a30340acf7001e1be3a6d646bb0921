@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>quiz03.jsp</title>
+</head>
+<body>
+<%
+    // session에서 id와 pw를 가져옴
+    String id = (String) session.getAttribute("id");
+    String pw = (String) session.getAttribute("pw");
+%>
+    <h2><%= id %>님의 회원가입을 축하합니다.</h2>
+    <p>비밀번호는 <%= pw %>입니다.</p>
+</body>
+</html>

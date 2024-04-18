@@ -1,0 +1,51 @@
+
+4월 12, 2024 13:19:59.93 NEW SESSION
+4월 12, 2024 13:19:59.95 [18972:7428:0412/131959.936:ERROR:device_event_log_impl.cc(195)] [13:19:59.936] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 12, 2024 13:20:00.03 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 12, 2024 14:39:05.93 [18972:17768:0412/143905.933:ERROR:cert_verify_proc_builtin.cc(878)] CertVerifyProcBuiltin for cs.axis-marketplace.com failed:
+4월 12, 2024 14:39:05.93 ----- Certificate i=0 (CN=*.axis-marketplace.com) -----
+4월 12, 2024 14:39:05.93 ERROR: Time is after notAfter
+4월 12, 2024 14:39:05.93 
+4월 12, 2024 14:39:05.93 
+4월 12, 2024 14:43:50.27 [18972:7428:0412/144350.273:ERROR:interface_endpoint_client.cc(707)] Message 3 rejected by interface blink.mojom.Widget
+4월 12, 2024 14:59:32.35 [18972:7428:0412/145932.354:ERROR:interface_endpoint_client.cc(707)] Message 3 rejected by interface blink.mojom.Widget
+4월 12, 2024 15:18:03.41 [18972:7428:0412/151803.414:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 12, 2024 15:32:51.01 [18972:7428:0412/153251.010:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 12, 2024 15:37:12.76 [18972:7428:0412/153712.761:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 12, 2024 15:37:12.76 [18972:7428:0412/153712.761:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+4월 13, 2024 09:03:13.02 NEW SESSION
+4월 13, 2024 09:03:13.03 [6716:7368:0413/090313.026:ERROR:device_event_log_impl.cc(195)] [09:03:13.026] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 13, 2024 09:03:13.11 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 13, 2024 09:03:20.80 [10868:15344:0413/090320.808:ERROR:device_event_log_impl.cc(195)] [09:03:20.808] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 13, 2024 09:03:20.91 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 13, 2024 09:03:33.21 [12020:12080:0413/090333.209:ERROR:device_event_log_impl.cc(195)] [09:03:33.208] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 13, 2024 09:03:33.30 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 13, 2024 09:10:23.33 [12020:12080:0413/091023.335:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+4월 13, 2024 09:10:23.33 [12020:12080:0413/091023.335:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 13, 2024 09:10:23.33 [12020:12080:0413/091023.335:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 13, 2024 09:24:36.74 [12020:12080:0413/092436.745:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 13, 2024 09:35:11.50 [12020:12080:0413/093511.502:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 13, 2024 09:36:25.96 [12020:12080:0413/093625.961:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 13, 2024 11:16:40.80 [12020:1336:0413/111640.799:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+4월 13, 2024 11:47:01.63 [12020:1336:0413/114701.639:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+4월 13, 2024 11:47:05.66 [12020:1336:0413/114705.666:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+4월 13, 2024 11:47:12.03 [12020:1336:0413/114712.030:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+4월 13, 2024 11:47:17.64 [12020:1336:0413/114717.644:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+4월 13, 2024 12:57:15.33 [12020:1336:0413/125715.338:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+4월 13, 2024 15:28:24.00 [12020:1336:0413/152824.009:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+4월 14, 2024 16:04:45.34 [12020:1336:0414/160445.342:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+4월 14, 2024 16:04:46.86 [12020:12080:0414/160446.864:ERROR:device_event_log_impl.cc(195)] [16:04:46.863] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 14, 2024 16:04:46.91 [12020:12080:0414/160446.917:ERROR:device_event_log_impl.cc(195)] [16:04:46.917] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: �궗�슜 媛��뒫�븳 �뜲�씠�꽣媛� �뾾�뒿�땲�떎. (0x103)
+
+4월 16, 2024 10:47:11.66 NEW SESSION
+4월 16, 2024 10:47:11.67 [7232:6592:0416/104711.650:ERROR:device_event_log_impl.cc(195)] [10:47:11.650] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 16, 2024 10:47:12.08 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 16, 2024 14:27:18.37 [7232:6592:0416/142718.374:ERROR:device_event_log_impl.cc(195)] [14:27:18.373] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 16, 2024 14:27:18.38 [7232:6592:0416/142718.380:ERROR:device_event_log_impl.cc(195)] [14:27:18.380] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: �궗�슜 媛��뒫�븳 �뜲�씠�꽣媛� �뾾�뒿�땲�떎. (0x103)
+4월 16, 2024 14:50:40.43 [7232:6592:0416/145040.433:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 16, 2024 15:20:12.38 [7232:6592:0416/152012.379:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 16, 2024 15:20:12.38 [7232:6592:0416/152012.379:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 16, 2024 15:31:20.86 [7232:6592:0416/153120.858:ERROR:device_event_log_impl.cc(195)] [15:31:20.858] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 16, 2024 15:31:20.86 [7232:6592:0416/153120.864:ERROR:device_event_log_impl.cc(195)] [15:31:20.863] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: �궗�슜 媛��뒫�븳 �뜲�씠�꽣媛� �뾾�뒿�땲�떎. (0x103)
+4월 16, 2024 15:36:10.49 [7232:6592:0416/153610.496:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost

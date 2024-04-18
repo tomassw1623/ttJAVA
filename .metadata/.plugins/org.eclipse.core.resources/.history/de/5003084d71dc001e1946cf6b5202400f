@@ -1,0 +1,27 @@
+/*
+ * 여러줄 주석
+ * 	주석은 프로그램 코드를 실행하지 않아요!
+ * 	주석은 코드를 설명하거나 기술할 때 사용해요.
+ * 
+ * * 새 프로젝트 생성
+ *   file -> new -> java project -> 프로젝트 이름 입력
+ *   
+ * * 클래스 파일 생성
+ *   src(소스 폴더) -> 우클릭 -> new -> calss -> 클래스 이름 지정
+ */
+
+// 한줄 주석
+
+/*
+ * JAVA특징
+ */
+package reset;
+
+public class A01_HelloWorld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

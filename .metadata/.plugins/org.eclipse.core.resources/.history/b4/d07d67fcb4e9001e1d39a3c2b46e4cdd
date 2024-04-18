@@ -1,0 +1,45 @@
+package quiz;
+
+public class Chapter_9 {
+
+	public static void main(String[] args) {
+
+		// 1. implements
+		
+		// 2. ③
+		
+//		// 3. 
+//		
+//		class BaseBallPlay implements Player{
+//			public void play() {
+//				System.out.println("야구선수가 야구를 합니다.");
+//			}
+//		}
+//		
+//		class FootBallPlayer implements Player{
+//			public void play() {
+//				System.out.println("축수선수가 축구를 합니다.");
+		
+		// 4. 
+		
+		interface Tv{
+			void turnOn();
+		}
+		
+		class Excercise4{
+			
+			public static void main(String[] args) {
+				
+				Tv p1 = new Tv() {
+					@Override
+					public void turnOn() {
+						System.out.println("Tv를 켭니다.");
+					}
+				};
+				
+				p1.turnOn();
+			}
+		}
+	}
+
+}

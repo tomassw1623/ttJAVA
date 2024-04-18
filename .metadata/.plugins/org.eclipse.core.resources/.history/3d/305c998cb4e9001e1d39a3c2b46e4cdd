@@ -1,0 +1,42 @@
+package quiz;
+
+public class Chapter_8 {
+
+		// TODO Auto-generated method stub
+		
+		// 1. [실행 결과] (2)(1)(4)(3)
+		
+		// 2. ③
+	
+		// 3. 
+		
+	class Character{
+		int hp;
+		int power;
+		
+		public void arrack(Object target) {
+			System.out.println("공격");
+		}
+	}
+	
+	class Warrior extends Character{
+		
+		int weapon;
+		
+		public void defence(Object target) {
+			System.out.println("방어");
+		}
+	}
+	
+	class Wizard extends Character{
+		
+		int hell;
+		
+		public void healing(Object ratfet) {
+			System.out.println("치료마법");
+		}
+	}
+		
+
+
+}

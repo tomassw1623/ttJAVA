@@ -1,0 +1,10 @@
+package reset;
+
+public class A02_Escape {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

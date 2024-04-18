@@ -1,0 +1,94 @@
+//package quiz;
+//
+//public class Pracyice_7 {
+//
+//	public static void main(String[] args) {
+//		
+//		// 1. 로컬 변수
+//		
+//		// 2. ④하나의 클래스는 하나의 객체만 생성 가능하다.
+//		
+//		// 3. 
+////		String name;
+////		String gender;
+////		int age;
+////		int height;
+////		int weight;
+//		
+//		// 4. ②생성자는 오버로딩할 수 없다.
+//		
+//		// 5. ④리턴값이 없는 메서드는 리턴타입을 명시하지 않는다.
+//		
+//		// 6. 같은 이름의 메서드로 자료형, 개수, 순서 등 하나 이상을 다르게 설명하는 것.
+//		
+//		// 7. println()
+//		
+//		// 8. 
+//		
+////		String number = "123";
+////		
+////		System.out.println("출력값 : "+add1(number));
+////		
+////		}
+////		public static String add1 (String number) {
+////			return number + "456";
+//		
+//		// 9.
+////		
+////		Excercise ex1 = Excercise.getInstanse();
+////		Excercise ex2 = Excercise.getInstanse();
+////		
+////		System.out.println("ex1 == ex2 : "+(ex1 == ex2));
+////	}
+////
+////}
+////class Excercise{
+////	
+////	private static Excercise Instance = new Excercise();
+////	
+////	public static Excercise getInstanse() {
+////		return Instance;
+////		
+////	}
+////	private Excercise() {
+////	
+//		// 10. this
+//		
+////		// 11. 
+////		
+////		int [] arr = {9,5,24,13,3,21};
+////		
+////		Math m = new Math();
+////		int max = m.max(arr);
+////		int min = m.min(arr);
+////		
+////		System.out.println("최대값 : "+max);
+////		System.out.println("최소값 : "+min);
+////		
+////	}
+////	
+////}
+////
+////class Math{
+////	
+////	public int max(int[] arr) {
+////		int temp = 0;
+////		for (int i = 0; i < arr.length; i++) {
+////			if (arr[i] > temp) {
+////				temp = arr[i];
+////			}
+////		}
+////		return temp;
+////	}
+////			public int min(int[] arr) {
+////				int temp = arr[0];
+////				for (int i = 0; i < arr.length;i++) {
+////					if (arr[i] < temp) {
+////						temp = arr[i];
+////					}
+////				}
+////				return temp;
+//		
+//		// 12. ①
+//	}
+//}

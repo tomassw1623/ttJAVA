@@ -1,0 +1,34 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="com.myweb.user.model.UserDAO" %>
+<%@ page import="com.myweb.user.model.UserVO" %>
+<%@ page import="java.io.*,java.util.*" %>
+<%@ page import="javax.servlet.*,javax.servlet.http.*" %>
+
+<%
+    // 세션에서 현재 로그인한 사용자의 아이디를 가져옴
+    String id = (String)session.getAttribute("loginId");
+    
+    // 폼에서 전달된 수정된 회원 정보를 받음
+    String name = request.getParameter("name");
+    String email = request.getParameter("email");
+    String address = request.getParameter("address");
+    
+    // UserVO 객체를 생성하여 수정된 정보를 저장
+    UserVO vo = new UserVO(id, null, name, email, address, null);
+    
+    // UserDAO 객체 생성
+    UserDAO dao = UserDAO.getInstance();
+    
+    // 회원 정보 수정 결과를 담을 변수
+    int result = dao.update(vo);
+    
+    if (result > 0) {
+        // 회원 정보 수정 성공시 세션에 저장된 이름을 업데이트
+        session.setAttribute("userName", name);
+        // 수정 성공 메시지 출력 후 마이페이지로 이동
+        response.sendRedirect("mypage.jsp");
+    } else {
+        // 수정 실패 메시지 출력 후 마이페이지로 이동
+        response.sendRedirect("mypage.jsp");
+    }
+%>

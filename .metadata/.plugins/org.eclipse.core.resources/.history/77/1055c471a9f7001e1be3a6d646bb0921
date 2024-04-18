@@ -1,0 +1,37 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+	// 1. 앞에서 넘어온 폼값을 받아서 처리
+	String id = request.getParameter("id");
+	String pw = request.getParameter("pw");
+	String pw_check = request.getParameter("pw_check");
+	
+	// 2. pw와 pw_check가 같다면
+	if (pw.equals(pw_check)) {
+	   // User객체에 form에서 넘어온 id, pw를 저장하고,
+	   session.setAttribute("id", id);
+	   session.setAttribute("pw", pw);
+	   // User객체를 quiz03.jsp로 넘깁니다.
+	   response.sendRedirect("quiz03.jsp");
+	} else {
+	   // 3. pw와 pw_check가 다르다면
+	   // quiz02.jsp로 넘어가서 "회원가입에 실패했습니다." 출력
+	   response.sendRedirect("quiz02.jsp?error=fail");
+	}
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>quiz02.jsp</title>
+</head>
+<body>
+<%
+    // 오류 메시지 출력
+    String error = request.getParameter("error");
+    if (error != null && error.equals("fail")) {
+        out.println("회원가입에 실패했습니다.");
+    }
+%>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<%@page import="com.myweb.user.model.UserDAO"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+	/*
+	1. 로그인 처리과정을 작성하세요.
+	2. executeQuery 메서드로 결과값이 존재하면 1, 없으면 0을 반환하는 메서드 구현
+	3. 실패인 경우 경고창을 출력 후 뒤로가기, 성공인 경우에는 user_mypage.jsp로 이동
+	*/
+	
+	request.setCharacterEncoding("utf-8");
+	
+	// 사용자가 입력한 아이디와 비밀번호를 가져옴
+	String id = request.getParameter("id");
+	String pw = request.getParameter("pw");
+
+	// DAO 객체 생성
+	UserDAO dao = UserDAO.getInstance();
+
+	// 로그인 처리를 위해 DAO 메서드 호출
+	int result = dao.login(id, pw); // login 메서드는 아이디와 비밀번호를 검증하여 로그인 처리 결과를 반환하는 메서드
+
+	if (result == 1) { // 로그인 성공
+		response.sendRedirect("user_mypage.jsp"); // 로그인 성공 시 마이페이지로 리다이렉트
+	} else { // 로그인 실패
+%>
+		<script>
+			alert("아이디 또는 비밀번호가 올바르지 않습니다."); // 경고 메시지 출력
+			history.go(-1); // 이전 페이지로 이동
+		</script>
+<%
+	}
+%>
